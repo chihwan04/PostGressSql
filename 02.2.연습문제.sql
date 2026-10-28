@@ -50,6 +50,7 @@ where phone not like '010%';
 select *
 from employee
 where email like '____ㅗ_%' escape 'ㅗ' 
+ 
 	and dept_code in ('D9','D6') 
 	and hire_date between '1990-01-01' and '2000-12-01'
 	and salary >= 2700000;
